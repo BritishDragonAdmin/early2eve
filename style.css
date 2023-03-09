@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+* {
+	color: #fff;
+	font-family: "montserrat", Helvetica, sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+}
+.container {
+	min-height: 100%;
+	
+}
+.background-container {
+	display: flex;
+	flex-direction: column;
+    
+	
+}
+.dawn {
+    background: rgb(4,20,64);
+    background: linear-gradient(90deg, rgba(4,20,64,0.5) 0%, rgba(65,62,159,0.5) 15%, rgba(168,112,171,0.5) 38%, rgba(236,180,170,0.5) 70%, rgba(255,228,186,0.5) 100%), url("clouds-bg.png");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+}
+.dusk {
+    background: rgb(253,205,131);
+	background-image: linear-gradient(90deg, rgba(253,205,131,0.8) 0%, rgba(253,147,103,0.8) 31%, rgba(240,68,94,0.8) 60%, rgba(120,45,101,0.8) 82%, rgba(67,41,103,0.8) 100%), url("water-bg.png");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 105vh;
+}
+
+
+
+#socialIcons {
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+	align-items: flex-end;
+}
+#eventJoin {
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+	align-items: center;
+}
+#eventJoin div {
+	text-align: center;
+}
+
+#eventDescription {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	flex: 1;
+	margin: 0 8vw 0 8vw;
+	font-size: 90%;
+	font-weight: 700;
+	
+}
+
+#eventTitle {
+	display: flex;
+	flex-direction: row;
+	text-align: start;
+	flex: 1;
+	align-items: end;
+	font-size: 5vw;
+	
+}
+#eventTitleText {
+	display: flex;
+	flex-direction: row;
+	text-align: start;
+	align-items: center;
+	line-height: 0;
+}
+
+#eventDetails {
+	display: flex;
+	flex-direction: column;
+	
+	text-align: end;
+	
+	margin: 5vh 1vw 0 0;
+	font-size: 3.5vw;
+}
+				#eventDate {
+					
+				}
+				#eventLocation, h2 {
+					font-weight: 100;
+				}
+				#eventTime {
+					
+				}
+#eventDonation {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	justify-content: center;
+	margin: 2vh 0 0 0;
+}
+#donationDetails {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+				#donationDetails img {		
+					width: 30%;
+				}
+				#donationDetails p {
+					line-height: 0;
+					font-size: 80%;
+				}
+#eventCharity {
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+}
+#charityLogo {
+	display: flex;
+	flex-direction: row;
+	
+}
+#charityLogoDiv {
+	display: flex;
+	align-items: flex-end;
+}
+.charityLogo {
+	max-width: 30vw;
+	max-height: 10vh;
+	filter:  brightness(0%) invert(100);
+}
+
+i {
+	color:#fff;
+	font-size: 5vw;
+}
+
+p {
+	font-weight: 100;
+	padding: 1.5vw 0 0 0;
+}
+
+.c1 {
+	color: #fdcd83  ;
+}
+.c2 {
+	color: #fd9367  ;
+}
+.c3 {
+	color: #f0445e    ;
+}
+.c4 {
+	color: #782d65    ;
+}
+.c5 {
+	color: #432967    ;
+}
+			
