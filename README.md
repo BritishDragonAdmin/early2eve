@@ -1,6 +1,5 @@
-# early2eve
+# To Do
 
-TODO:
 <ul>
   <li>add a countdown</li>
   <li>add previous years</li>
