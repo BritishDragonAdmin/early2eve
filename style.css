@@ -34,14 +34,14 @@ time, mark, audio, video {
 }
 .dawn {
     background: rgb(4,20,64);
-   background: linear-gradient(90deg, rgba(58,55,52,0.5) 0%, rgba(70,101,102,0.5) 15%, rgba(44,224,229,0.5) 38%, rgba(230,148,44,0.5) 70%, rgba(230,83,44,0.5) 100%), url("assets/clouds-bg.png");
+   background: linear-gradient(90deg, rgba(25, 74, 92, 0.5) 0%, rgba(36, 107, 133, 0.5) 15%, rgba(67, 201, 250, 0.5) 38%, rgba(45, 250, 160, 0.5) 70%, rgba(17, 92, 59, 0.5) 100%), url("assets/clouds-bg.png");
 	background-size: cover;
 	background-attachment: fixed;
 	height: 50vh;
 }
 .dusk {
     background: rgb(253,205,131);
-	background-image: linear-gradient(90deg, rgba(230,83,44,0.5) 0%, rgba(230,148,44,0.5) 31%, rgba(44,224,229,0.5) 60%, rgba(70,101,102,0.5) 82%, rgba(58,55,52,0.5) 100%), url("assets/water-bg.png");
+	background-image: linear-gradient(90deg, rgba(17, 92, 59, 0.5) 0%, rgba(45, 250, 160, 0.5) 31%, rgba(67, 201, 250, 0.5) 60%, rgba(36, 107, 133, 0.5) 82%, rgba(25, 74, 92, 0.5) 100%), url("assets/water-bg.png");
 	background-size: cover;
 	background-attachment: fixed;
 	height: 105vh;
